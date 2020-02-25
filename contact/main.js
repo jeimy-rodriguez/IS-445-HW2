@@ -6,11 +6,11 @@ var regEx = /\S+@\S+\.\S+/;
 var form = document.querySelector('.form')
 
 function checkInput () {
-    if (inputName.nodeValue.trim()!== "" && regEx.test(inputMail.value) && inputMessage.value.trim() !== "") {
-        button.getElementsByClassName.backgroundColor = '#fa923d';
+    if (inputName.value.trim()!== "" && regEx.test(inputMail.value) && inputMessage.value.trim() !== "") {
+        button.style.backgroundColor = '#fa923d';
         button.disabled = false; 
     }   else {
-        button.getElementsByClassName.backgroundColor = '#979695';
+        button.style.backgroundColor = '#979695';
         button.disabled = true;
     }
 }

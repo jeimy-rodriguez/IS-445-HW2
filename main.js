@@ -3,8 +3,8 @@ var backdrop = document.querySelector('.backdrop');
 var modal = document.querySelector('.modal');
 
 function openModal () {
-backdrop.style.display = 'block';
-modal.style.display = 'block';
+    backdrop.style.display = 'block';
+    modal.style.display = 'block';
 }
 
 function closeModal (){
